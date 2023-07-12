@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES5" /*especifica la version ECMAScript: 'ES3' (defecto), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', o 'ESNEXT'.*/,
+        "module": "ESNext" /*Especificar la generación de código de módulo: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', o 'ESNext'.*/,
+        "moduleResolution": "node" /*Especificar la estrategia de resolución de módulos: 'node' (Node.js) or 'classic' (TypeScript pre-1.6).*/ /* Escriba los archivos de declaración que se incluirán en la compilación.*/,
+        "lib": [
+            "DOM",
+            "ESNext"
+        ] /*Especificar los archivos de biblioteca que se incluirán en la compilación.*/,
+        "jsx": "react-jsx" /*Especifique la generación de código JSX: 'preserve', 'react-native', 'react' or 'react-jsx'.*/,
+        "noEmit": true /*No emita salidas*/,
+        "isolatedModules": true /*Transpilar cada archivo como un módulo separado (similar a 'ts.transpileModule').*/,
+        "esModuleInterop": true /*Permite la interoperabilidad de emisión entre los módulos CommonJS y ES mediante la creación de objetos de espacio de nombres para todas las importaciones. Implica 'allowSyntheticDefaultImports'.*/,
+        "strict": true /*Habilite todas las opciones estrictas de comprobación de tipos.*/,
+        "skipLibCheck": true /* Omita la comprobación de tipos de archivos de declaración.*/,
+        "forceConsistentCasingInFileNames": true /* No permitir referencias incoherentes al mismo archivo.*/,
+        "resolveJsonModule": true,
+        //"allowJs": true /*Permitir que se compilen archivos javascript. Útil al migrar JS a TS */,
+        //"checkJs": true /* Informar de errores en .js archivos. Funciona en conjunto con allowJs.*/,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
