@@ -1,3 +1,3 @@
 export const App = () => {
-    return <h1>React typescript webpack starter template</h1>
+    return <h1>React typeScript Webpack starter Template</h1>
 }
